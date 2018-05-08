@@ -1,0 +1,70 @@
+page-historial {
+  ion-title {
+    text-align: center;
+  }
+  	#logoDiv1{
+      margin-top:15px;
+	  margin-left:15px;
+    }
+	.nombre{
+	margin-top:-65px;
+	margin-left:100px;
+	font-size: 18px;
+	color: black;
+	}
+	.datos1{
+		margin-top:10px;
+		margin-left:100px;
+		font-size: 14px;
+	}
+	.datos2{
+	margin-top:20px;
+	margin-left:10px;
+	}
+	.datos3{
+	margin-top:5px;
+	margin-left:10px;
+	}
+	
+	 #icono{
+    float:right;
+	margin-top:319px;
+	margin-right:5px;
+    line-height:20px;
+  }
+  
+    #icono:active{
+      height:45px;
+      width:45px;
+    }
+	#historial{
+	}
+   #ventanaAyuda3{
+      height:80%;
+      width:85%;
+      position: fixed;
+      top: 75px;
+      left:6%;
+      background-color: #efffff ;
+      display:none;
+    }
+    #tituloAyuda{
+      width:100%;
+      height:50px;
+      background-color: #dddddd;
+      text-align:center;
+	  margin-top:35px;
+    }
+    
+    #textoAyuda{
+      margin-left:10px;
+      line-height:50px;
+    }
+    #iconoSalirAyuda{  
+	  position: fixed;
+	  top: 162px;
+	  left: 287px;
+    }
+	
+	
+}

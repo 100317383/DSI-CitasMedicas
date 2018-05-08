@@ -1,0 +1,185 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title >Mis citas concertadas</ion-title>
+  
+  </ion-navbar>  
+     
+  
+</ion-header>
+
+<ion-content>
+  
+  <div id="ventanaAyuda1">
+    <div id="tituloAyuda">
+      <b id="textoAyuda">Ayuda</b>
+      <a><img id="iconoSalirAyuda" (click)="salirdeaqui()" src="../assets/icon/salir.png" alt="Ayuda" height="100%" width="40"></a>
+    </div>
+  </div>
+
+
+  <div id = "container">
+        <div>
+		<div class="orden">
+		<div class="titulos">
+			<b>Ordenar por</b>
+		</div>
+		
+		<a>
+      <div class= "ordenacion" >	
+        <p class= "nombreOrdenacion"> Fecha </p>
+      </div>       
+  </a>
+  </div>
+  
+  <div id="div_boton">
+    <a><img id="icono" (click)="ayudame()" src="../assets/icon/ayuda.png" alt="Ayuda" height="80%" width="40"></a>
+  </div>
+  </div>
+  <div class="segundaparte">
+  <div class = "buscador">
+  <input class="input" id="busqueda" type="text" placeholder="Buscar"/>
+  </div>
+
+   <div class="pacientePaciente">
+   
+   <div id="logoDiv">
+  <img id="logo" src="../assets/imgs/logoUsuario.png" alt="logo" height="50px" width="50px">
+	Motivo de la citacion si procede
+   <div class="nombre">Fernando Fernández Fernández</div>
+   
+  </div>
+
+   <div class= "fecha">
+     10/5/18 - 9:30 am
+    </div>
+   
+   <a>
+    <div class= "paciente" (click)="modificar()">
+      <p class= "nombrePaciente">Cancelar cita</p>
+    </div>
+ </a>
+ 
+ </div>
+ 
+ <div class="pacientePaciente">
+   
+   <div id="logoDiv">
+  <img id="logo" src="../assets/imgs/logoUsuario.png" alt="logo" height="50px" width="50px">
+	Motivo de la citacion si procede
+   <div class="nombre">Fernando Fernández Fernández</div>
+   
+  </div>
+
+  <div class= "fecha">
+     15/5/18 - 11:50 am
+    </div>
+   
+   
+   <a>
+    <div class= "paciente" (click)="modificar()">
+      <p class= "nombrePaciente">Cancelar cita</p>
+    </div>
+ </a>
+ 
+ </div>
+ 
+ <div class="pacientePaciente">
+   
+   <div id="logoDiv">
+  <img id="logo" src="../assets/imgs/logoUsuario.png" alt="logo" height="50px" width="50px">
+	Motivo de la citacion si procede
+   <div class="nombre">Fernando Fernández Fernández</div>
+   
+  </div>
+
+   <div class= "fecha">
+     18/8/18 - 8:40 am
+    </div>
+   
+   <a>
+    <div class= "paciente" (click)="modificar()">
+      <p class= "nombrePaciente">Cancelar cita</p>
+    </div>
+ </a>
+ 
+ </div>
+ 
+ <div id="division">
+  <div id="divisionPendientes">
+    <p class="textoDivision">Pendientes</p>
+  </div>
+  <div class="divisionLinea">
+  </div>
+  <div class="divisionLinea">
+  </div>
+  <div id="divisionFinalizadas">
+      <p class="textoDivision">Finalizadas</p>
+  </div>
+</div> 
+ 
+ <div class="pacientePaciente">
+   
+   <div id="logoDiv">
+  <img id="logo" src="../assets/imgs/logoUsuario.png" alt="logo" height="50px" width="50px">
+	Motivo de la citacion si procede
+   <div class="nombre">Fernando Fernández Fernández</div>
+   
+  </div>
+
+   <div class= "fecha">
+     1/5/18 - 11:10 am
+    </div>
+   
+   <a>
+    <div class= "paciente" (click)="modificar()">
+      <p class= "nombrePaciente">Cancelar cita</p>
+    </div>
+ </a>
+ 
+ </div>
+ 
+ <div class="pacientePaciente">
+   
+   <div id="logoDiv">
+  <img id="logo" src="../assets/imgs/logoUsuario.png" alt="logo" height="50px" width="50px">
+	Motivo de la citacion si procede
+   <div class="nombre">Fernando Fernández Fernández</div>
+   
+  </div>
+
+   <div class= "fecha">
+     12/4/18 - 10:40 am
+    </div>
+   
+   <a>
+    <div class= "paciente" (click)="modificar()">
+      <p class= "nombrePaciente">Cancelar cita</p>
+    </div>
+ </a>
+ 
+ </div>
+ 
+ <div class="pacientePaciente">
+   
+   <div id="logoDiv">
+  <img id="logo" src="../assets/imgs/logoUsuario.png" alt="logo" height="50px" width="50px">
+	Motivo de la citacion si procede
+   <div class="nombre">Fernando Fernández Fernández</div>
+   
+  </div>
+
+   <div class= "fecha">
+     1/3/18 - 11:30 am
+    </div>
+   
+   <a>
+    <div class= "paciente" (click)="modificar()">
+      <p class= "nombrePaciente">Cancelar cita</p>
+    </div>
+ </a>
+ 
+ </div>
+ 
+ </div>
+  </div>  
+</ion-content>

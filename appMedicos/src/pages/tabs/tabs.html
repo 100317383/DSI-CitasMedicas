@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title >Mi Cuenta</ion-title>
+  
+  </ion-navbar>  
+
+ <a><img id="iconoSalirAyuda" (click)="salir()" src="../assets/icon/back_arrow.png" alt="Ayuda" height="100%" width="40"></a>
+     
+  
+</ion-header>
+
+<ion-tabs tabsPlacement = "top">
+    <ion-tab [root]="citasPage"  tabTitle="Mis citas concertadas">  </ion-tab>
+    <ion-tab [root]="mispacientesPage" tabTitle="Mis pacientes" ></ion-tab>
+</ion-tabs>

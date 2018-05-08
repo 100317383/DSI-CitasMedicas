@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Mi cuenta</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+<div id="ventanaAyuda5">
+    <div id="tituloAyuda">
+      <b id="textoAyuda">Ayuda</b>
+      <a><img id="iconoSalirAyuda" (click)="salirdeaqui()" src="../assets/icon/salir.png" alt="Ayuda" height="100%" width="40"></a>
+    </div>
+  </div>
+
+<div id="nuevacita">
+  <div class="divTitulo">
+    <p> Seleccione una especialidad </p>
+  </div>
+<div id="especialidades">
+  <button class="especialidad" ion-button><div><p>Atención primaria</p></div></button>
+  <button class="especialidad" ion-button><div><p>Cardiología</p></div></button>
+  <button class="especialidad" ion-button><div><p>Endocrinología</p></div></button>
+  <button class="especialidad" ion-button><div><p>Nefrología</p></div></button>
+  <button class="especialidad" ion-button><div><p>Neumología</p></div></button>
+  <button class="especialidad" ion-button><div><p>Neurología</p></div></button>
+  <button class="especialidad" ion-button><div><p>Oftalmología</p></div></button>
+  <button class="especialidad" ion-button><div><p>Psiquiatría</p></div></button>
+  <button class="especialidad" ion-button><div><p>Urología</p></div></button>
+</div>
+<div id="divElegida">
+  <div id="elegida">
+    <p id="elegida_texto"></p>
+  </div>
+  <div id="divMensaje">
+    <p id="mensaje_texto">(Haz click para cambiar especialidad)</p>
+  </div>
+</div>
+<div class="divTitulo" id="titulo">
+  <p> Seleccione la fecha y la hora </p>
+</div>
+<div id="grid_botones">
+  <button ion-button round id="boton_fecha"><div class="boton"><p>Seleccionar fecha</p></div></button>
+  <button ion-button round id="boton_hora"><div class="boton"><p id="texto_hora">Seleccionar hora</p></div></button>
+  <div>
+  </div>
+</div>
+<div id="divCalendario">
+  <ion-calendar id="calendario" #calendar (onDaySelect)="fijarDia(calendar)"></ion-calendar>
+</div>
+<div id="divHoras">
+  <ul>
+    <li><p class="hora">9:00</p></li>
+    <li><p class="hora">9:30</p></li>
+    <li><p class="hora">10:00</p></li>
+    <li><p class="hora">10.30</p></li>
+    <li><p class="hora">11:00</p></li>
+    <li><p class="hora">11:30</p></li>
+    <li><p class="hora">12:00</p></li>
+    <li><p class="hora">12:30</p></li>
+    <li><p class="hora">13:00</p></li>
+    <li><p class="hora">13:30</p></li>
+    <li><p class="hora">14:00</p></li>
+    <li><p class="hora">16:00</p></li>
+    <li><p class="hora">16:30</p></li>
+    <li><p class="hora">17:00</p></li>
+    <li><p class="hora">17:30</p></li>
+    <li><p class="hora">18:00</p></li>
+    <li><p class="hora">18:30</p></li>
+    <li><p class="hora">19:00</p></li>
+    <li><p class="hora">19:30</p></li>
+  </ul>
+</div>
+<div id="confirmacion">
+  <p></p>
+</div>
+<div class="divTitulo" id="titulo_confirmar">
+  <p> Confirme la cita </p>
+</div>
+<button id="boton_confirmar" ion-button round>Confirmar</button>
+<div id="margen">
+</div>
+<div id="div_boton">
+    <a><img id="icono" (click)="ayudame()"  src="../assets/icon/ayuda.png" alt="Ayuda" height="80%" width="40"></a>
+</div>
+</div>
+</ion-content>

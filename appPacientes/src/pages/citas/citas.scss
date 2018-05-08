@@ -1,0 +1,197 @@
+page-citas {
+  ion-title {
+    text-align: center;
+  }
+  #icono{
+      float:right;
+      line-height:20px;
+      margin-right:1%;
+    }
+    #icono:active{
+      height:45px;
+      width:45px;
+    }
+   #ventanaAyuda1{
+      height:80%;
+      width:85%;
+      position: fixed;
+      top: 75px;
+      left:6%;
+      background-color: #efffff ;
+      display:none;
+    }
+    #tituloAyuda{
+      width:100%;
+      height:50px;
+      background-color: #dddddd;
+      text-align:center;
+	  margin-top:35px;
+    }
+    
+    #textoAyuda{
+      margin-left:10px;
+      line-height:50px;
+    }
+   #container{	
+	}
+    #iconoSalirAyuda{  
+	  position: relative;
+	  top: 162px;
+	  left: 287px;
+    }
+  #div_ordenar{
+    width:100%;
+    height:10%;
+    background-color: #dddddd;
+    display:inline-block;
+    line-height:20px;
+  }
+  #ordenar{
+    display:inline-block;
+    font-size: 16px;
+    margin-left:5%;
+    margin-right:3%;
+    font-weight:bold;
+  }
+  #boton_ordenar{
+    display:inline-block;
+    width:30%;
+    height:45%;
+    position: relative;
+    top:-5px;
+  }
+  .infoCita{
+    text-align: center;
+    color:white;
+    position:relative;
+    top:-3px;
+  }
+  .opciones{
+    height:30px;
+    width:80%;
+    margin:0 auto;
+    background-color:#dddddd;
+    position:relative;
+    border-radius: 5px;
+    top:-50px;
+    display:none;
+  }
+  .opciones p{
+    display: inline-block;
+    vertical-align: top;
+    line-height:2px;
+    margin: 0 auto;
+
+  }
+  .opciones button{
+    height:60%;
+    width: 45%;
+    margin-left:3%;
+  }
+  .botonEliminar{
+    width:45%;
+    height:auto;
+    background-color:#488aff;
+    padding: 10px;
+    color:white;
+    border-radius: 20px;
+    line-height:5px;
+    vertical-align: middle;
+    margin-top:5px;
+  }
+  .botonModificar{
+    width:45%;
+    height:auto;
+    background-color:#488aff;
+    padding: 10px;
+    color:white;
+    border-radius: 20px;
+    line-height:5px;
+    vertical-align: middle;
+    margin-top:5px;
+  }
+
+  #citasPendientes{
+    height:auto;
+    width: 100%;
+    margin-top:10%;
+  }
+  .citaPendiente:active{
+    background-color: #0080dd;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+  }
+  .citaPendiente{
+    display:grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 40% 20% 30%;
+    height:40px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top:50px;
+    border-radius:10px;
+    background-color: #0080ff;
+    box-shadow: 0 5px #999;
+  }
+  #divisionPendientes{
+    text-align:center;
+    margin-top:15%;
+  }
+  .textoDivision{
+    font-style:italic;
+    font-weight:bold;
+    position:relative;
+    top:-20px;
+  }
+  .divisionLinea{
+    border-color:black;
+    border-width:1px;
+    border-style:solid;
+    width:80%;
+    margin-left:10%;
+    margin-top:1%;
+    position:relative;
+    top:-20px;
+  }
+  #divisionFinalizadas{
+    text-align:center;
+    margin-top:1%;
+  }
+  #citasFinalizadas{
+    height:auto;
+    width: 100%;
+    position:relative;
+    top:-5px;
+  }
+  .citaFinalizada:active{
+    background-color: #0080dd;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+  }
+  .citaFinalizada{
+    display:grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 40% 20% 30%;
+    overflow:hidden;
+    height:40px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom:50px;
+    border-radius:10px;
+    background-color: #0080ff;
+    box-shadow: 0 5px #999;
+  }
+  #div_ayuda{
+    width: 90%;
+    position: fixed;
+    bottom:0;
+    left:4%;
+    height: 50px;
+    margin:0;
+  }
+  #icono{
+    float:right;
+    line-height:50px;
+    margin-right:1%;
+  }
+}

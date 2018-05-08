@@ -1,0 +1,76 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Mi Cuenta</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+
+  <div id="ventanaAyuda1">
+    <div id="tituloAyuda">
+      <b id="textoAyuda">Ayuda</b>
+      <a><img id="iconoSalirAyuda" (click)="salirdeaqui()" src="../assets/icon/salir.png" alt="Ayuda" height="100%" width="40"></a>
+    </div>
+  </div>
+
+  <div id="container">
+  <div id="div_ordenar">
+    <p id="ordenar">Ordenar por:</p>
+    <button id ="boton_ordenar" ion-button round>Fecha</button>
+  </div>
+  <div id="citasPendientes">
+    <div class="citaFinalizada">
+        <div class="infoCita"><p>Cardiología</p></div>
+        <div class="infoCita"><p>10:00</p></div>
+        <div class="infoCita"><p>13/09/2018</p></div>
+    </div>
+    <div class="opciones">
+      <button class="botonModificar"><p>Modificar</p></button>
+      <button class="botonEliminar"><p>Eliminar</p></button>
+    </div>
+    <div class= "citaFinalizada">
+        <div class="infoCita"><p>Psiquiatría</p></div>
+        <div class="infoCita"><p>19:30</p></div>
+        <div class="infoCita"><p>13/08/2018</p></div>
+    </div>
+    <div class="opciones">
+      <button class="botonModificar"><p>Modificar</p></button>
+      <button class="botonEliminar"><p>Eliminar</p></button>
+    </div>
+</div>
+<div id="division">
+  <div id="divisionPendientes">
+    <p class="textoDivision">Pendientes</p>
+  </div>
+  <div class="divisionLinea">
+  </div>
+  <div class="divisionLinea">
+  </div>
+  <div id="divisionFinalizadas">
+      <p class="textoDivision">Finalizadas</p>
+  </div>
+</div>
+<div id="citasPendientes">
+      <div class= "citaFinalizada">
+          <div class="infoCita"><p>Oftalmología</p></div>
+          <div class="infoCita"><p>11:00</p></div>
+          <div class="infoCita"><p>18/02/2018</p></div>
+      </div>
+      <div class="opciones">
+        <button class="botonModificar"><p>Modificar</p></button>
+        <button class="botonEliminar"><p>Eliminar</p></button>
+      </div>
+      <div class="citaFinalizada">
+          <div class="infoCita"><p>Cardiología</p></div>
+          <div class="infoCita"><p>17:30</p></div>
+          <div class="infoCita"><p>13/12/2017</p></div>
+      </div>
+      <div class="opciones">
+        <button class="botonModificar"><p>Modificar</p></button>
+        <button class="botonEliminar"><p>Eliminar</p></button>
+      </div>
+</div>
+<div id="div_ayuda">
+    <a><img id="icono" (click)="ayudame()" src="../assets/icon/ayuda.png" alt="Ayuda" height="80%" width="40"></a>
+</div>
+</div>
+</ion-content>

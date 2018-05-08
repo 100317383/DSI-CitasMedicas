@@ -1,0 +1,196 @@
+page-nuevascitas {
+  ion-title {
+    text-align: center;
+  }
+ 
+    #icono:active{
+      height:45px;
+      width:45px;
+    }
+	#historial{
+	}
+   #ventanaAyuda5{
+      height:80%;
+      width:85%;
+      position: fixed;
+      top: 75px;
+      left:6%;
+      background-color: #efffff ;
+      display:none;
+    }
+    #tituloAyuda{
+      width:100%;
+      height:50px;
+      background-color: #dddddd;
+      text-align:center;
+	  margin-top:35px;
+    }
+    
+    #textoAyuda{
+      margin-left:10px;
+      line-height:50px;
+    }
+    #iconoSalirAyuda{  
+	  position: fixed;
+	  top: 162px;
+	  left: 287px;
+    }
+	
+  .divTitulo{
+    width:80%;
+    margin: 0 auto;
+    text-align:center;
+    font-weight: bold;
+    font-size:20px;
+  }
+  #titulo{
+    position: relative;
+    top:-30px;
+  }
+  #especialidades{
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto auto;
+  margin-bottom:10px;
+  }
+  .especialidad div{
+
+  font-size: 10px;
+  text-align: center;
+  margin-bottom:15px;
+  }
+  .especialidad p{
+    position: relative;
+    bottom:-8px;
+  }
+  #divCalendario{
+    border: 1px solid black;
+    height:auto;
+    width:100%;
+    display:none;
+    position:relative;
+    top:-15px;
+  }
+  #elegida{
+    width:80%;
+    height:32px;
+    border:1px solid black;
+    background-color:#0080ff;
+    display:none;
+    margin-left:2%;
+
+  }
+  #elegida_texto{
+    text-align: center;
+    position:relative;
+    top:-22px;
+    color:white;
+    font-style: italic;
+  }
+  #divElegida{
+    display:grid;
+    grid-template-columns: auto auto;
+    margin-left:10%;
+    margin-bottom:12%;
+  }
+  #divMensaje{
+    display:none;
+  }
+  #mensaje_texto{
+    font-size: 10px;
+  }
+  li{
+  padding: 5px 15px;
+  border-bottom: 1px solid #ccc;
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:nth-child(odd) {
+    background: #488aee;
+    }
+  }
+  ul{
+
+      margin: 0;
+      padding: 0;
+      border: 2px solid #ccc;
+      font-size: 16px;
+  }
+  #divHoras{
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+    height:35%;
+    border: 1px solid black;
+    overflow: scroll;
+    display:none;
+    position:relative;
+    top:-25px;
+
+  }
+  #grid_botones{
+    display: grid;
+
+    grid-template-columns: 50% 50%;
+    position:relative;
+    top:-35px;
+  }
+  #boton_fecha{
+    width:80%;
+    margin-left:15%;
+    text-align: center;
+    padding:5%;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  #boton_hora{
+    width:80%;
+    padding:5%;
+    font-size:12px;
+    font-weight: 600;
+  }
+
+  #icono{
+    float:right;
+    line-height:20px;
+    margin-right:7%;
+  }
+  #div_boton{
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    height: 50px;
+    margin:0;
+    background-color:white;
+  }
+  #margen{
+    width:100%;
+    height:40px;
+  }
+  #confirmacion{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    height:auto;
+    width:100%;
+    margin-top:7%;
+    display:none;
+  }
+  #titulo_confirmar{
+    display:none;
+    position:relative;
+    top:-100px;
+  }
+  #boton_confirmar{
+    margin-left:10%;
+    margin-top:10%;
+    width:80%;
+    display:none;
+    position:relative;
+    top:-60px;
+    height:15%;
+    font-style: italic;
+  }
+
+}

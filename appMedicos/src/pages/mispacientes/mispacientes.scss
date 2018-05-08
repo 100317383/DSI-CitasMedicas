@@ -1,0 +1,262 @@
+page-mispacientes {
+    $colors: (
+      azul: (
+        base: #000,
+        contrast:  #0080ff
+      )
+    );
+    #ventanaAñadir{
+      height:50%;
+      width:85%;
+      position: fixed;
+      top: 75px;
+      left:6%;
+      background-color: green;
+      display:none;
+    }
+	#tituloAñadir{
+      width:100%;
+      height:50px;
+      background-color: #aaaaaa;
+      text-align:center;
+    }
+	#textoAñadir{
+      margin-left:10px;
+      line-height:50px;
+    }
+    #ventanaAyuda2{
+       height:80%;
+      width:85%;
+      position: fixed;
+      top: 75px;
+      left:6%;
+      background-color: #efffff ;
+      display:none;
+    }
+    #tituloAyuda{
+      width:100%;
+      height:50px;
+      background-color: #dddddd;
+      text-align:center;
+	  margin-top:35px;
+    }
+    
+    #textoAyuda{
+      margin-left:10px;
+      line-height:50px;
+    } 
+    #iconoSalirAyuda{
+    
+	  position: relative;
+	  top: 160px;
+	  left: 1495px;
+      height:60%;
+      width:auto;
+    }
+	
+	#ventanaPaciente2{
+       height:80%;
+      width:85%;
+      position: fixed;
+      top: 75px;
+      left:6%;
+      background-color: #efffff ;
+      display:none;
+    }
+    #tituloPaciente{
+      width:100%;
+      height:50px;
+      background-color: #dddddd;
+      text-align:center;
+	  margin-top:35px;
+    }
+    
+    #textoPaciente{
+      margin-left:10px;
+      line-height:50px;
+	  position: relative;
+	  top: -20px;
+    } 
+    #iconoSalirPaciente{
+	  position: relative;
+	  left: 395px;
+      height:110%;
+      width:auto;
+    }
+	
+    #iconoSalirAñadir{
+      float: right;
+      height:60%;
+      width:auto;
+    }
+    #divFormulario{
+      width:60%;
+      height:50px;
+      margin-left:20%;
+    }
+    .input{
+      margin-top:0;
+      border-radius: 5px;
+      width:100%;
+      height: 30px;
+    }
+    #botonAñadir{
+      margin-top:15%;
+      width: 50%;
+      height:30px;
+      margin-left:3%;
+    }
+    #div_img{
+      width: 100%;
+      height: 250px;
+      margin: auto;
+    }
+    #img_ppal{
+      width: 100%;
+      height: 100%;
+    }
+    b{
+      font-size: 32px;
+	 
+    }
+    .titulos{
+      margin-top: 40px;
+      width: 100%;
+      text-align:center;
+	  color:#00b0dd;
+    }
+
+    .paciente:active{
+      background-color: #0080dd;
+      box-shadow: 0 2px #666;
+      transform: translateY(2px);
+    }
+	#logoDiv{
+      margin-top:10px;
+    }
+	
+	.nombre{
+	margin-top:-65px;
+	margin-left:55px;
+	font-size: 30px;
+	color: black;
+	}
+    
+    .paciente{
+      height:40px;
+      width: 20%;
+      margin-top:-50px;
+      border-radius:10px;
+      background-color: #0080ff;
+      box-shadow: 0 5px #999;
+	  margin-left:865px;
+
+    }
+    .nombrePaciente{
+      text-align:center;
+      line-height: 40px;
+      font-size:24px;
+      color:white;
+    }
+	
+	.pacientePaciente{
+	width:1100px;
+	height:65px;
+	border:1px solid #000; 
+	margin-left:130px;
+	margin-top:20px;
+	color:grey;
+	font-size: 20px;
+	background-color:  #dfffff;
+	}
+	
+	.ordenacion{
+      height:40px;
+      width: 40%;
+      margin: 0 auto;
+      margin-top:-20px;
+      border-radius:10px;
+      background-color: #0080ff;
+      box-shadow: 0 5px #999;
+
+    }
+	.ordenacion:active{
+      background-color: #0080dd;
+      box-shadow: 0 2px #666;
+      transform: translateY(2px);
+    }
+    .nombreOrdenacion{
+      text-align:center;
+      line-height: 40px;
+      font-size:28px;
+      color:white;
+    }
+	
+    input{
+      margin-left:0px;
+    }
+    .submit{
+      margin-left:10px;
+    }
+    
+   .grid {
+    height: 100%;
+	width:100%;
+	
+	}
+	
+	#container2{
+	display:grid;
+	grid-column-gap: 5px;
+	grid-template-columns: 400px auto;
+	
+	}
+   #div_boton{
+      width: 90%;
+      position: fixed;
+      bottom:0;
+      left:-83%;
+      height: 50px;
+      margin:0;
+      background-color:white;
+    }
+	.buscador{
+	width:500px;
+	height:30px; 
+	margin-left:130px;
+	margin-top:50px;
+	color:grey;
+	font-size: 20px;
+	}
+    #boton{
+      width: 50%;
+      height:30px;
+      line-height:40px;
+      margin-bottom:1%;
+    }
+    #icono{
+      float:right;
+      line-height:20px;
+      margin-right:1%;
+    }
+    #icono:active{
+      height:45px;
+      width:45px;
+    }
+    
+  
+    a{
+      cursor:pointer;
+    }
+
+     ion-title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      background-color: #98fb98;
+    }
+	
+}

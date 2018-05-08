@@ -1,0 +1,70 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title color ="azul">Inicio</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+  <div id="ventanaAñadir">
+    <div id="tituloAñadir">
+      <b id="textoAñadir">Añadir cuenta</b>
+      <a><img id="iconoSalirAñadir" src="../assets/icon/salir.png" alt="Añadir" height="100%" width="40"></a>
+    </div>
+    <div id="contenidoAñadir">
+      <div id="divFormulario">
+        <form class="login-form">
+          <input class="input" id="nombre" type="text" placeholder="Nombre"/>
+          <input class="input" id="apellido" type="tex" placeholder="Primer apellido"/>
+          <input class="input" type="text" placeholder="DNI"/>
+          <input class="input" type="password" placeholder="Contraseña"/>
+          <button ion-button round id ="botonAñadir">Añadir</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="ventanaAyuda">
+    <div id="tituloAyuda">
+      <b id="textoAyuda">Ayuda</b>
+      <a><img id="iconoSalirAyuda" src="../assets/icon/salir.png" alt="Ayuda" height="100%" width="40"></a>
+    </div>
+  </div>
+<div id="logoDiv">
+  <img id="logo" src="../assets/imgs/logoMedicina.png" alt="logo" height="50px" width="50px">
+</div>
+<div class="titulos">
+  <b>Selecciona una cuenta</b>
+</div>
+<div id="cuentas">
+  <a>
+      <div class= "cuenta" (click)="acceder()">
+        <p class= "nombreCuenta"> Dr. Victor Von Doom </p>
+      </div>
+  </a>
+  <a>
+    <div class= "cuenta" (click)="acceder()">
+      <p class= "nombreCuenta"> Dr. Otto Octavio </p>
+    </div>
+  </a>
+  <a>
+    <div class= "cuenta" (click)="acceder()">
+      <p class= "nombreCuenta"> Dr. No </p>
+    </div>
+  </a>
+  <a>
+    <div class= "cuenta" (click)="acceder()">
+      <p class= "nombreCuenta"> Dr. Evil </p>
+    </div>
+  </a>
+</div>
+<div id="margen">
+</div>
+<div>
+    <p id="noCuenta">¿Quieres usar otra cuenta?</p>
+</div>
+<div id="div_boton">
+    <button id="boton" ion-button round><p id="textoBoton">Añadir cuenta</p></button>
+    <a><img id="icono" src="../assets/icon/ayuda.png" alt="Ayuda" height="80%" width="40"></a>
+</div>
+</ion-content>

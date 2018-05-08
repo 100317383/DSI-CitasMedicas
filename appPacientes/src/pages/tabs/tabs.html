@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title >Mi Cuenta</ion-title>
+  
+  </ion-navbar>  
+  
+
+ <a><img id="iconoSalirAyuda" (click)="salir()" src="../assets/icon/back_arrow.png" alt="Ayuda" height="100%" width="40"></a>
+ <a><img id="logo" (click)="perfil()" src="../assets/imgs/logoUsuario.png" alt="logo" height="70px" width="70px"></a>    
+ 
+	
+  
+</ion-header>
+
+<ion-tabs tabsPlacement="top">
+  <ion-tab [root]="citasPage" tabTitle="Mis citas"></ion-tab>
+  <ion-tab [root]="nuevascitasPage" tabTitle="Nueva cita"></ion-tab>
+  <ion-tab [root]="historialPage" tabTitle="Historial"></ion-tab>
+  <ion-tab [root]="tratamientoPage" tabTitle="Tratamiento"></ion-tab>
+</ion-tabs>
